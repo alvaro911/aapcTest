@@ -1,0 +1,21 @@
+header{
+  width: 100%;
+  color:white;
+  height: auto;
+  display: inline-block;
+  background-color: #5a1f77;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu{
+  float:left;
+  position: absolute;
+  top:1em;
+  left: 1em;
+  width: 100%;
+}

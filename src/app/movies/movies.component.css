@@ -1,0 +1,18 @@
+h2{
+  margin:2em 0 1.5em 3em;
+}
+
+.list{
+  width: 30%;
+  padding:.5em;
+  float: left;
+  box-sizing: border-box;;
+}
+
+.display{
+  width: 65%;
+  height: auto;
+  margin-left: 3%;
+  float:right;
+  overflow: hidden;
+}
