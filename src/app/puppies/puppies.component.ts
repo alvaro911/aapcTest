@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Jsonp } from '@angular/http';
 
 @Component({
   selector: 'hz-puppies',

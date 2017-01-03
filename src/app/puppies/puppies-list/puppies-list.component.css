@@ -1,0 +1,10 @@
+.list-cont{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:1em;
+  box-sizing: border-box;
+  justify-content: center;
+}

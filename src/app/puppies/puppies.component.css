@@ -1,0 +1,22 @@
+h2{
+  text-align: center;
+}
+
+.search{
+  margin: 2em 2em;
+  width: 25%;
+  height: auto;
+  float: left;
+  position:fixed;
+}
+
+.form{
+  width: 100%;
+}
+
+.list{
+  margin: 2em 2em;
+  width: 65%;
+  float: right;
+  height: auto;
+}

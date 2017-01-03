@@ -1,0 +1,24 @@
+.puppy-cont{
+  flex: 1 1 0;
+  max-width: 200px;
+  min-width: 150px;
+  margin:1.5em;
+  background-color: white;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.puppy-img{
+  max-width: 200px;
+  min-width: 150px;
+  max-height: 200px;
+  min-height: 150px;
+  overflow: hidden;
+}
+
+.puppy-cont:hover{
+  border-bottom: 1px solid #5d2b78;
+}

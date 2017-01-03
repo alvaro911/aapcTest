@@ -1,0 +1,30 @@
+h3{
+  font-weight: 200;
+  text-align: center;
+}
+
+md-input-container{
+  width: 100%;
+  margin:1em 1em;
+}
+
+button{
+  width: 25%;
+  color: white;
+  margin:1em 35.5%;
+  background-color: #592777;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+button:hover{
+  background-color: #A60EC8;
+}
+
+i{
+  color: rgb(138, 138, 138);
+  font-size: .8em;
+}

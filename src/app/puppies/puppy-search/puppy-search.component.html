@@ -1,0 +1,13 @@
+<h3>Fill this form to find adorable puppies</h3>
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <md-input-container>
+    <input md-input placeholder="Size" ngModel name="size" required #size="ngModel">
+  </md-input-container>
+  <i *ngIf="!size.valid">only S, M, L, XL</i>
+  <md-input-container>
+    <input md-input placeholder="ZipCode" ngModel name="zipCode" required #zip="ngModel">
+  </md-input-container>
+  <i *ngIf="!zip.valid">Enter valid ZIP code</i>
+  <button md-raised-button>search</button>
+  <button md-raised-button (click)="f.reset(); onClear()">clear</button>
+</form>
