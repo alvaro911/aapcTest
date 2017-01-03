@@ -4,10 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'hz-header',
   templateUrl: './header.component.html',
   styles: [`
-          button{background-color:rgb(184, 43, 207)}
-
           .btnLink{
-            background-color:white;
+            background-color:rgb(184, 43, 207);
             cursor:pointer;
             -webkit-transition:all .2s ease;
             -moz-transition:all .2s ease;
