@@ -2,17 +2,25 @@ h2{
   margin:2em 0 1.5em 3em;
 }
 
+.movies-cont{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .list{
   width: 30%;
   padding:.5em;
-  float: left;
   box-sizing: border-box;;
+  padding-left: 2em
 }
 
 .display{
   width: 65%;
+  flex: 1 1 0;
   height: auto;
-  margin-left: 3%;
-  float:right;
+  margin-left: 8%;
   overflow: hidden;
 }

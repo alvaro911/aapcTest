@@ -12,7 +12,7 @@ button{
   width: 25%;
   color: white;
   margin:1em 35.5%;
-  background-color: #592777;
+  background-color: #f67280;
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -ms-transition: all .25s ease;
@@ -21,7 +21,7 @@ button{
 }
 
 button:hover{
-  background-color: #A60EC8;
+  background-color: #f8b195;
 }
 
 i{

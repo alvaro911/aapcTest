@@ -20,7 +20,7 @@ export class PuppySearchComponent implements OnInit {
   onSubmit(puppyForm: NgForm){
     this.onClear();
 
-    this.puppiesService.searchPuppyData(puppyForm.value.zipCode, puppyForm.value.size).subscribe(
+    this.puppiesService.searchPuppyData(puppyForm.value.zipCode, puppyForm.value.size.toUpperCase()).subscribe(
       (data) => {
         console.log(data);
         for(let i=0; i<=data.petfinder.pets.pet.length ;i++){

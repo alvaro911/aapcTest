@@ -5,17 +5,23 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styles: [`
           .btnLink{
-            background-color:rgb(184, 43, 207);
             cursor:pointer;
             -webkit-transition:all .2s ease;
             -moz-transition:all .2s ease;
             -ms-transition:all .2s ease;
             -o-transition:all .2s ease;
             transition:all .2s ease;
+            height:100%;
+            padding:0 2em;
+            line-height:5.5em;
           }
 
           .btnLink:hover{
-            background-color:rgba(91, 91, 91, 0.29)
+            background-color:#f8b195;
+          }
+
+          .active{
+            background-color:#f67280;
           }
   `]
 })
